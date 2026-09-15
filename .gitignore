@@ -1,0 +1,99 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+sdist/
+wheels/
+share/python-wheels/
+*.egg-info/
+*.egg
+MANIFEST
+.installed.cfg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+ENV/
+.python-version.local
+
+# ---- Secrets and local config ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# ---- Testing and coverage ----
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+*.cover
+.hypothesis/
+
+# ---- Type checkers and linters ----
+.ruff_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# ---- Packaging / build tools ----
+*.manifest
+*.spec
+pip-wheel-metadata/
+
+# ---- Editors and IDEs ----
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+*~
+.spyderproject
+.spyproject
+.ropeproject
+
+# ---- AI assistant local config ----
+# Personal workflow tooling and machine-specific permissions — not part of the project.
+CLAUDE.md
+.claude/
+.cursor/
+.aider*
+
+# ---- OS ----
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ---- Qt ----
+*.qmlc
+*.jsc
+qrc_*.py
+ui_*.py
+
+# ---- Application data (user collections, environments, history) ----
+.route_tester/
+*.log
